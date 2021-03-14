@@ -1,0 +1,26 @@
+questions =  [
+    {"id": 0, "question": "I enjoy being dominated in and out of the bedroom.", "effects": {"dom": -1}},
+    {"id": 1, "question": "I enjoy recieving pain during sex and seeing its results (tears, bruises, etc.)", "effects": {"dom": -1}},
+    {"id": 2, "question": "I enjoy making sexual decisions for my partner because it grants me more control.", "effects": {"dom": 1}},
+    {"id": 3, "question": "I enjoy forcing my partner into submission more than if they entered into submission on their own.", "effects": {"dom": -1}},
+    {"id": 4, "question": "I enjoy having sex with multiple people at one time.", "effects": {"hyper": 1, "exp": 1}},
+    {"id": 5, "question": "I enjoy being watched during sex.", "effects": {"exp": 1, "hyper": 1}},
+    {"id": 6, "question": "I enjoy having my partner make sexual decisions for me.", "effects": {"dom": -1}},
+    {"id": 8, "question": "I'm willing to try anything at least once, even if I'm unsure if I'll enjoy it.", "effects": {"exp": 1}},
+    {"id": 9, "question": "I enjoy restraining my partner physically with chains, ropes, clothes, etc.", "effects": {"dom": 1}},
+    {"id": 10, "question": "I enjoy being 100% at my partner's disposal and unable to resist what they do.", "effects": {"dom": -1}},
+    {"id": 11, "question": "I enjoy acting like an animal during sex.", "effects": {"exp": 1}},
+    {"id": 12, "question": "I enjoy having sex in public areas.", "effects": {"exp": 1, "hyper": 1}},
+    {"id": 13, "question": "I would rather keep doing what I enjoy in the bedroom and not try new things.", "effects": {"exp": -1, "hyper": -1}},
+    {"id": 14, "question": "My ideal sexual realtionship would be me and my partner having plain sex in our bedroom.", "effects": {"exp": -1, "hyper": -1}},
+    {"id": 15, "question": "I masturbate frequently.", "effects": {"hyper": 1}},
+    {"id": 16, "question": "I would enjoy being kept as a slave by my partner.", "effects": {"dom": -1, "exp": 1}},
+    {"id": 18, "question": "I don't have a specific fetish or sexual interest.", "effects": {"exp": -1}},
+    {"id": 19, "question": "I would enjoy having a slave or group of slaves to serve my sexual desires.", "effects": {"exp": 1, "dom": 1}},
+    {"id": 20, "question": "I enjoy being tied up with chains, ropes, clothes, etc, during sex.", "effects": {"exp": 1, "dom": -1}},
+    {"id": 21, "question": "I enjoy being degraded by my partner.", "effects": {"exp": 1, "dom": -1}},
+    {"id": 22, "question": "I enjoy treating my partner with little to no respect during BDSM.", "effects": {"dom": 1}},
+    {"id": 23, "question": "I enjoy being forced into submission.", "effects": {"dom": -1}},
+    {"id": 24, "question": "I would say that I have more kinky sexual fantasies than my peers.", "effects": {"hyper": 1}}
+    
+];

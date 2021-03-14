@@ -1,0 +1,44 @@
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:300,700" rel="stylesheet">
+    <link href='style.css' rel='stylesheet' type='text/css'>
+    <title>BDSM Compass</title>
+    <link rel="icon" type="x-icon" href="icon.png">
+    <link rel="shortcut icon" type="x-icon" href="icon.png">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h1>BDSM Compass</h1>
+    <hr>
+    <img src="" id="banner">
+    <button class="button" onclick="location.href='instructions.html';" style="font-size:36pt;">Click here to start!</button>
+
+    <h2>What is the BDSM Compass?</h2>
+    <p>The BDSM Compass is a fork of <a href="http://sapplyvalues.github.io/">Sapply Values</a> that aims to put sexuality on a compass. You will be presented by a statement, and then you will answer with your opinion on the statement, from <b>Strongly Agree</b> to <b>Strongly Disagree</b>, with each answer slightly affecting your scores. At the end of the quiz, your answers will be displayed on a compass with the values of dominant or submissive and experimentalist or vanilla, along with a meter from asxeul to hypersexual. There are <b><u><span id="numOfQuestions"></span></u></b> questions in the test.</p>
+    <h2>Privacy notice</h2>
+    <p><u><b>Absolutely none</b></u> of your answers will be recorded or stored in any way, shape, or form.</p>
+    <h2>Legal notice</h2>
+    <p>The Sapply Values, 8values, and 9Axes project licenses grant the rights to "modify, merge, publish, distribute" the software as long as "The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software." The included notice can be found <a href="LICENSE.txt">here</a>. This project is released under the same license.</p>
+
+    <script type="application/javascript" src="questions.js"></script>
+    <script type="text/javascript">
+        document.getElementById("numOfQuestions").innerHTML = questions.length;
+
+        window.onload = function() {
+            var background = new Image();
+            background.onload = function() {
+                var c = document.createElement("canvas");
+                c.width = 1850;
+                c.height = 1300;
+                var ctx = c.getContext("2d");
+                ctx.fillStyle = "#EEEEEE"
+                ctx.fillRect(0, 0, 1850, 1300);
+                ctx.drawImage(background, 0, 0);
+
+                document.getElementById("banner").src = c.toDataURL();
+            }
+            background.src = "./compass.png";
+        }
+
+    </script>
+</body>
